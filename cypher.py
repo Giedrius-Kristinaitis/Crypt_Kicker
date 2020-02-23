@@ -19,7 +19,7 @@ class Cypher:
             if letters:
                 result.add_plaintext(self.decypher_case(letters, case))
             else:
-                result.add_plaintext(["No solution"])
+                result.add_plaintext(["No solution.\n"])
 
         return result
 
